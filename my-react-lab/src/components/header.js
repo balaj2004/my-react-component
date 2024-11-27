@@ -1,9 +1,10 @@
 import React from 'react';
+import './app.css'
 
 const header =() => {
 return (
     <header>
-        <p>
+        <p className='header'>
             hello rafay
         </p>
     </header>
